@@ -1,0 +1,17 @@
+{
+  "name": "typescript-starter-template",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"nodemon --experimental-specifier-resolution=node --inspect ./build/index.js\" \"tsc --watch\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "typescript": "^4.9.5"
+  }
+}
